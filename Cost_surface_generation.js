@@ -629,7 +629,7 @@ var sandBody = makeFactorCard(
   false
 );
 wideTextRow(sandBody, 'sandAsset', 'Loose-sand image asset', DEFAULTS.sandAsset,
-  'Replace this ID if the default user asset is not accessible. The source script identifies users/hao23/looseSand_RE as the Roman Empire alternative.');
+  'Replace this ID if the default user asset is not accessible.');
 parameterRow(sandBody, 'sandThreshold', 'Probability threshold', DEFAULTS.sandThreshold, null);
 parameterRow(sandBody, 'sandCoefficient', 'Probability coefficient', DEFAULTS.sandCoefficient,
   'Default maximum multiplier is 1.35 when probability = 1.');
@@ -952,8 +952,6 @@ function buildModel(settings, geometry) {
       .filter(periodFilter)
       .filterBounds(geometry)
       .map(function(img) {
-        // Keep only genuine 0-100% values; mask out flag codes
-        // (missing/no-decision/night/water/ocean/cloud/saturated/fill).
         return img.updateMask(img.lte(100));
       });
 
