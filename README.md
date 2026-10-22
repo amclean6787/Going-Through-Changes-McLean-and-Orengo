@@ -17,10 +17,10 @@ With so many large rasters, a slightly more complex means of merging was utilise
 
 The end result is a single raster for the Probabilistic Cost Corridor model.
 
-## Small Scale Network Generation Loop
-This script is purely to create a simple Probabilistic Cost Corridor Network between the 31 node sites for demonstration of the impact of multi factor multitemporal costs on route costs. It is included here only for clarity and reproducibility, and is not intended to be used to create a full network.
+## Shortest Route Extraction
+This notebook is purely to algorithmically select the core routes on the itiner-e network between the node points used in the M2PRM model. It is included here only for clarity and reproducibility.
 
-This loop skeletonises the Probabilistic Cost Corridor and ensures the node sites are all directly connected. It then uses the appropriate cost surface to apply costs to this skeletonised network. Cumulative cost surfaces from each node site are then generated across the network and the costs at every other node site sampled and added to a cost matrix. Producing 11 cost matrices where every unique route between node sites has a cost.
+This script takes a network input and a points file and snaps the points to the network to ensure complete alignment, and runs simple Dijkstra’s Algorithms between each unique pair and extracts only the simplest route between these. All of the routes between every unique pair are then combined to produce a much reduced but complete network.
 
 ## Supplementary Data
 [Appendix A- 11 Cost Surfaces](https://zenodo.org/uploads/20595249?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImIwM2M2ODEyLTllMWEtNDc3Zi1hMWRiLWRhNjRmZDgyMmU2MiIsImRhdGEiOnt9LCJyYW5kb20iOiI3NjdiMmI2ZWVlY2VlNzI2MTMyMDVhYjhlODRmMzZlZCJ9.MBrI9nkj79VAtK1y7Tomw_tzd1uF7Jcl-cZE1ezqt2GLX_oo7ezf4W5QyuTrwqP45jfAcdQhJXUiUvfkhtkXyw)
