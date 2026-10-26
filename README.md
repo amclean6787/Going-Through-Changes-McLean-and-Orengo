@@ -23,13 +23,14 @@ This notebook is purely to algorithmically select the core routes on the itiner-
 This script takes a network input and a points file and snaps the points to the network to ensure complete alignment, and runs simple Dijkstra’s Algorithms between each unique pair and extracts only the simplest route between these. All of the routes between every unique pair are then combined to produce a much reduced but complete network.
 
 ## Supplementary Data
-[Appendix A- 11 Cost Surfaces](https://zenodo.org/uploads/20595249?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImIwM2M2ODEyLTllMWEtNDc3Zi1hMWRiLWRhNjRmZDgyMmU2MiIsImRhdGEiOnt9LCJyYW5kb20iOiI3NjdiMmI2ZWVlY2VlNzI2MTMyMDVhYjhlODRmMzZlZCJ9.MBrI9nkj79VAtK1y7Tomw_tzd1uF7Jcl-cZE1ezqt2GLX_oo7ezf4W5QyuTrwqP45jfAcdQhJXUiUvfkhtkXyw)
+[Appendix A- LMUV Shapefile and Data](https://zenodo.org/records/23557511?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU0YjMxZTY3LWExYjYtNDFmMi1hNGE2LTQ2ZWU2MDM4NGVjNiIsImRhdGEiOnt9LCJyYW5kb20iOiI4NWYxZmIwZjBkYTZlNTk3MDE1ZmFhMmMwYmRmYzExNyJ9.6Sra0lGVax3u6iAl09EftdDBp6S2QGFVZu1P22Yen1Tm4N_2CzMbtkSIYvIJuylIS_MmsTzcR5ISuihtX_iGWg)
 
-[Appendix B- 11 Probabilistic Cost Corridors](https://zenodo.org/uploads/20613456?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjdhN2VlOTI1LTg2OGYtNDQ5YS04ZTAwLTUzNjdiN2U1MDI1YyIsImRhdGEiOnt9LCJyYW5kb20iOiI3YzY1NTJmZWU3ZTljZGNiMmQxYThjZTU1NTcyYjBlZSJ9.r9pOZiRrsUNPOEzoLCc6jfGXJO-xHCD58Y_RjYMffkxGwXZX3_ckv0KT1rqjJ86TwOaIxPTcJj07pcc_JXTOyg)
+[Appendix B- 11 Cost Surfaces](https://zenodo.org/records/23668328?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImQxMGYxZWRlLTc4N2MtNGY4MS04MDI2LThiMjM5NjczYzE4MyIsImRhdGEiOnt9LCJyYW5kb20iOiIwMDQ0NGM4NTJkMzUxOGM0MTliZmY0MzVmNWViMDYyYSJ9.XepPY178_D0mW6KDxlYYkR_wmBC6jkFNeJioB24XzWExVq_j8_V9OP-KKn7M3D9wZNn9-nVLU3ZpVZ92Gdj6YQ)
 
-[Appendix C- LMUV Shapefile and Data](https://zenodo.org/uploads/20613931?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImVjY2RmZjZiLTQzNzItNDU5ZS04NWU3LWU0OTcyMjc0OWU4MCIsImRhdGEiOnt9LCJyYW5kb20iOiJmMzE0ZDlmMGEwY2U2NjI4ZjBmNmY0YzllZGY0MDU3OSJ9.t6Ch9WMGPLJaQfYGq_bgSfB8rewcMKV3NZ6Hgh2o5QsUXkfb9pZRx1n3VvxHtsHtOrpsqooCfo6IRlUdL9E5ug)
+[Appendix C- 11 Probabilistic Cost Corridors](https://zenodo.org/records/23666989?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImFlNDU5NTM4LWU5NzAtNDBmMi05NDNhLWVmODQ5YmExY2VjYiIsImRhdGEiOnt9LCJyYW5kb20iOiIzMTNiYzAwZmYyYTlkNjllZjljZTU0ZjQzNmZlZDUyNSJ9.hUehnto0YL0gzGb6gGjEacjLr7XkByz0tcKM-BAuduxiNoyqh0vgJZ6_qF9XI0CJaQSQZ4_bFp53DbKgf5MXCw)
 
-[Appendix D- Cost Matrices](https://zenodo.org/uploads/20613992?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImRjMTQxM2U3LWFmZjctNDc1ZS05YzQ5LTcxODU4NzczNWQ4YiIsImRhdGEiOnt9LCJyYW5kb20iOiJmNDhjY2Y0MWNhMDJjY2NhOTY0MTMyYmEzM2Y4ZDRmZSJ9.XhwgPKD3pPZQlDAlfP_n4cm1QmBTu0msYTCHpL2AyXokuZ8K_l76YJxFgcHhbf2RT_NQC9znDmbowZGxYgaOfw)
+
+
 
 ## Acknowledgements
 This study was part of the project OneWorld (PID2023-152402NB-I00) funded by Spanish Ministry of Science, Innovation and Universities.
